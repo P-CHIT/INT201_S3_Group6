@@ -5,9 +5,10 @@ import {loadCarts, showCarts, clearAll} from "./carts.js";
 import {checkSearchPanel,searchKfcMenu} from "./search.js";
 import {Cookie} from "./cookie.js";
 
-const search = document.querySelector('#searchIcon');
-const cartIcon = document.querySelector('#cartIcon')
-const clearBtn = document.querySelector('#clearBtn')
+const searchIcon = document.querySelector('#searchIcon');
+const searchBtn = document.querySelector('#searchBtn');
+const cartIcon = document.querySelector('#cartIcon');
+const clearBtn = document.querySelector('#clearBtn');
 
 console.log(decodeURIComponent(document.cookie))
 
